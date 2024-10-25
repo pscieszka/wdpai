@@ -1,0 +1,168 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 44px;
+    letter-spacing: -0.02em; 
+    margin-bottom: 36px; 
+    color: #333;
+    text-align: center;
+    width: 343px; 
+    height: 44px;     
+}
+
+.main-container {
+    width: 375px;
+    border: 1px solid #D0D5DD;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.header-container{
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.form-container{
+    padding-right: 16px;
+    padding-left: 16px;
+    gap: 48px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 300;
+    color: #344054;
+}
+
+a {
+    color: #344054;
+    font-weight: normal;
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;  
+    gap: 10px;            
+}
+
+.checkbox-container {
+    display: flex;          
+    align-items: center;   
+    gap: 10px;            
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin: 0;
+    width: 16px; 
+    height: 16px; 
+    accent-color: #7F56D9; 
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    margin: 0; 
+}
+
+.submit-button {
+    background-color: #7F56D9;
+    color: #FFFFFF;
+    padding: 12px 20px; 
+    border: 1px solid #7F56D9;
+    border-radius: 5px; 
+    font-size: 16px;
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.submit-button:hover {
+    background-color: #4c51bf; 
+}
+
+.user-list-container {
+    width: 375px;
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.user-list-container {
+    width: 375px; 
+    margin-top: 20px; 
+}
+
+.user {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    border: 1px solid #D0D5DD; 
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #F9FAFB; 
+}
+
+
+.list-content {
+    display: flex;
+    flex-direction: column; 
+}
+
+.name {
+    font-weight: bold; 
+    color: #191D23;
+    size: 14px;
+}
+
+.subtitle {
+    font-weight: normal;
+    color: #64748B;
+    size: 14px; 
+}
+
+.buttons {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.delete-button img {
+    width: 24px;
+    height: 24px; 
+}

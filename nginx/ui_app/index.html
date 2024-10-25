@@ -4,29 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GET and POST Requests</title>
-    <script src="./requests_async.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Send GET and POST Requests</h1>
-
-    <!-- Form for GET Request -->
-    <h2>GET Request</h2>
-    <label for="getInputField">Enter path for GET request:</label>
-    <input type="text" id="getInputField" placeholder="Enter path for GET request">
-    <button onclick="sendGetRequest()">Send GET Request</button>
-
-    <h3>GET Response:</h3>
-    <pre id="getResponse"></pre>
-
-    <hr>
-
-    <!-- Form for POST Request -->
-    <h2>POST Request</h2>
-    <label for="postNameField">Enter name for POST request:</label>
-    <input type="text" id="postNameField" placeholder="Enter name for POST request">
-    <button onclick="sendPostRequest()">Send POST Request</button>
-
-    <h3>POST Response:</h3>
-    <pre id="postResponse"></pre>
+    <div class="main-container">
+        <div class="header-container">
+            <h2>Let's level up your brand, together</h2>
+        </div>
+        <div class="form-container">
+            <form class="form" id="userForm">
+                <div class="input-container">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" class="input-field" placeholder="First name" required>
+                </div>
+                <div class="input-container">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" class="input-field" placeholder="Last name" required>
+                </div>
+                <div class="input-container">
+                    <label for="role">Role</label>
+                    <input type="text" id="role" class="input-field" placeholder="Role" required>
+                </div>
+                <div class="input-container">
+                    <label for="Country">Role</label>
+                    <input type="text" id="role" class="input-field" placeholder="Country" required>
+                </div>
+                <div class="input-container checkbox-group">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="privacy-policy" required>
+                        <label for="privacy-policy">You agree to our friendly <a href="#">privacy policy</a>.</label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-button">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+        <div class="user-list-container" id="userList"></div>
+        <script src="./requests_async.js"></script>
+    </div>
 </body>
 </html>
